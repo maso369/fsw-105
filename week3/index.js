@@ -1,20 +1,20 @@
-// var officeItems = ["stapler","monitor","computer","desk","lamp","computer","lamp","stapler","computer","computer"]
+var officeItems = ["stapler","monitor","computer","desk","lamp","computer","lamp","stapler","computer","computer"]
 
-// function countItemOnList(nameOfList, itemToBeSearched)
-// {
+function countItemOnList(nameOfList, itemToBeSearched)
+{
 
-//     var numberOfItems = 0;
+    var numberOfItems = 0;
 
-//     for (i=0; i < nameOfList.length; i++)
-//     {
-//        if (nameOfList[i] == itemToBeSearched)
-//        {
-//           numberOfItems = numberOfItems + 1;
-//        }
-//     }
-//     console.log("final count " + numberOfItems);
-// }
-// countItemOnList(officeItems, "computer");
+    for (i=0; i < nameOfList.length; i++)
+    {
+       if (nameOfList[i] == itemToBeSearched)
+       {
+          numberOfItems = numberOfItems + 1;
+       }
+    }
+    console.log("final count " + numberOfItems);
+}
+countItemOnList(officeItems, "computer");
 
 var peopleWhoWantToSeeMadMaxFuryRoad = [
    {
